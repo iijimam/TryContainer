@@ -1,0 +1,25 @@
+{
+    "objectscript.conn": {
+        "ns": "USER",
+        "server": "iriscon1",
+        "active": true
+    },
+    "intersystems.servers": {
+        "iriscon1": {
+            "webServer": {
+                "scheme": "http",
+                "host":"localhost",
+                "port": 9093
+            },
+            "username": "SuperUser"
+        },
+        "iriscon2": {
+            "webServer": {
+                "scheme": "http",
+                "host":"localhost",
+                "port": 9083
+            },
+            "username": "SuperUser"
+        },
+    }
+}
